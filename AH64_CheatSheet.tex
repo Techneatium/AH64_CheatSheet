@@ -31,7 +31,13 @@
 
 \setaircraftlong{AH-64D AIRCRAFT} % sets long label for title page
 \setaircraftshort{AH-64D} % sets short label for header
-\settabnumber{1} % sets number of tabs for document
+\settabnumber{8} % sets number of tabs for document
+
+% spacing within lists
+\setlist[enumerate, 1]{leftmargin=1.5em, itemsep=1pt, parsep=0pt, label=(\alph*)}
+\setlist[enumerate, 2]{leftmargin=1.5em, itemsep=1pt, parsep=0pt}
+\setlist[itemize, 1]{leftmargin=1.5em, itemsep=1pt, parsep=0pt, label=\textbf{\textbullet}}
+\setlist[itemize, 2]{leftmargin=1.5em, itemsep=1pt, parsep=0pt}
 
 
 \begin{document}
@@ -78,7 +84,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{Lights Panel} \textbf{(PLT/CPG)}  &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{EXT LT/INTR LT Panel} \dotfill \textbf{As Required} \\
 					\emph{(PLT)}
@@ -105,7 +110,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{CMWS} \textbf{(PLT)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{CMWS Control Indicator PWR} \dotfill \textbf{OFF}
 					\item \textbf{CMWS/NAV Switch} \dotfill \textbf{CMWS}
@@ -149,7 +153,6 @@
 			\midrule
 			6. & \blue{Fire Test} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{enumerate}
 					\item \textbf{FIRE DET/EXTG TEST} \dotfill \textbf{Position 1} (PLT)
 					\item \textbf{FIRE DET/EXTG TEST} \dotfill \textbf{Position 2} (CPG)
@@ -157,7 +160,6 @@
 				\vspace{1em}
 				\emph{In each position, both crewmembers should check the following}
 				\begin{itemize}
-					\vspace{-7pt}
 					\item \textbf{MSTR WARN} \dotfill \textbf{illuminated}
 					\item \textbf{ENG 1 FIRE} \dotfill \textbf{illuminated}
 					\item \textbf{APU FIRE} \dotfill \textbf{illuminated}
@@ -171,7 +173,6 @@
 			\midrule
 			7. & \blue{APU} \textbf{(PLT)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{enumerate}
 					\item \textbf{APU Button} \dotfill \textbf{Press \& Release}
 					\item \textbf{EUFD} \dotfill \textbf{Observe Advisories}
@@ -208,7 +209,6 @@
 			\toprule
 			\textbf{\textbullet} & \blue{`M' Page} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{ASE--UTIL}
 					\begin{itemize}
@@ -222,7 +222,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{TSD Page} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{SHOW}
 					\begin{itemize}
@@ -261,7 +260,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{WPN Page} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{GRAYSCALE} \dotfill \textbf{Select \& Optimize}
 					\item \textbf{BORESIGHT} \dotfill \textbf{Select \& Perform} \\
@@ -292,7 +290,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{A/C Page} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{FLT--SET}
 					\begin{itemize}
@@ -322,7 +319,6 @@
 			\midrule
 			\textbf{\textbullet} & \blue{COMM Page} \textbf{(PLT/CPG)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{MAN}
 					\begin{itemize}
@@ -361,7 +357,6 @@
 			\midrule
 			5. & \blue{ENG 1 Start} \textbf{(PLT)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{enumerate}
 					\item \textbf{ENG 1 START Switch} \dotfill \textbf{START}
 					\item \textbf{EUFD} \dotfill \textbf{ENG 1 START}
@@ -379,7 +374,6 @@
 			\midrule
 			6. & \blue{ENG 2 Start} \textbf{(PLT)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{enumerate}
 					\item \textbf{ENG 2 START Switch} \dotfill \textbf{START}
 					\item \textbf{EUFD} \dotfill \textbf{ENG 2 START}
@@ -399,7 +393,6 @@
 			\midrule
 			8. & \blue{Stabilized Parameters} \textbf{(PLT)} &
 			\begin{minipage}[t]{\linewidth}
-				\vspace{-7pt}
 				\begin{itemize}
 					\item \textbf{ENG 1 \& 2 OIL PRES} -- < 70 PSI
 					\item \textbf{NGB TEMP} -- > 20 deg C
@@ -429,6 +422,113 @@
 			\bottomrule
 		\end{longtable}
 	\end{center}
+
+	\cleardoublepage
+
+
+	\chapter{SYSTEMS}
+	\thumbtab{Systems}{1}
+	\minitoc
+	\cleardoublepage
+
+	\chapter{NAVIGATION}
+	\thumbtab{Navigation}{2}
+	\minitoc
+	\cleardoublepage
+
+	\chapter{COMMUNICATION}
+	\thumbtab{Commms}{3}
+	\minitoc
+	\cleardoublepage
+
+	\chapter{ASE}
+	\thumbtab{ASE}{4}
+	\minitoc
+	\cleardoublepage
+
+	
+	\section{RADAR SIGNAL DETECTOR}
+
+	\clearpage 
+
+	\section{LASER SIGNAL DETECTOR}
+
+	\clearpage 
+
+	\section{CMWS}
+
+	\clearpage 
+
+	\section{FLARE / CHAFF}
+
+	\clearpage 
+
+	\section{RADAR JAMMER}
+
+	\cleardoublepage
+	
+
+	\chapter{SENSORS}
+	\thumbtab{Sensors}{5}
+	\minitoc
+	\cleardoublepage
+
+	\section{HMD}
+
+	\clearpage 
+
+	\section{PNVS}
+
+	\clearpage
+
+	\section{TADS}
+
+	\clearpage
+
+	\section{FCR}
+
+	\clearpage 
+
+	\section{RFI}
+
+	\cleardoublepage
+
+	\chapter{WEAPONS}
+	\thumbtab{Weapons}{6}
+	\minitoc
+	\cleardoublepage
+
+	\section{AWS -- AREA WEAPON SYSTEM}
+	\subsection{OVERVIEW}
+	\subsection{GUN -- TADS}
+	\subsection{GUN -- HMD} 
+	\subsection{GUN -- FIXED}
+
+	\clearpage 
+
+	\section{ARS -- AERIAL ROCKET SUB-SYSTEM}
+	\subsection{OVERVIEW}
+	\subsection{ROCKET -- COOP -- DIRECT}
+	\subsection{ROCKET -- COOP -- INDIRECT}
+	\subsection{ROCKET -- HMD}
+
+	\clearpage
+
+	\section{HELLFIRE MODULAR MISSILE SYSTEM}
+	\subsection{OVERVIEW}
+	\subsection{HELLFIRE -- LOBL}
+	\subsection{HELLFIRE -- LOAL -- DIR}
+	\subsection{HELLFIRE -- LOAL -- LO / HI}
+	\subsection{HELLFIRE -- RAPID}
+	\subsection{HELLFIRE -- RIPPLE}
+	\subsection{HELLFIRE -- REMOTE}
+
+	\cleardoublepage
+
+	\chapter{APPENDIX}
+	\thumbtab{Appendix}{7}
+	\minitoc
+	\cleardoublepage
 
 
 

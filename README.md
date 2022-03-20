@@ -2,7 +2,14 @@
 
 ***
 
+### Changelog - 2022.03.20
+
+- Testing using `itemize` and `enumerate` rather than tabulars, currently copied start up section for comparison
+
+***
+
 ### Changelog - 2022.03.16 
+
 - Added many additonal sections/subsections to ASE, Sensors, and Weapons chapters 
 
 ***

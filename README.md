@@ -5,6 +5,10 @@
 ### Changelog - 2022.03.20
 
 - Testing using `itemize` and `enumerate` rather than tabulars, currently copied start up section for comparison
+- Also testing new style of table for `TSD POINT - ADD`
+  - `textwidth` to define section widths
+  - no `textbullet` when enumeration unnecessary
+  - removed center vertical line to free up additional horizontal space
 
 ***
 

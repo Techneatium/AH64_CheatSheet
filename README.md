@@ -1,50 +1,37 @@
 # AH64_CheatSheet
 
-***
+## WHAT IS THIS?
 
-### Changelog - 2022.03.20
+- A kneeboard-style `cheatsheet` for the DCS AH-64D
+- Intended to allow someone already knowledgeable about the Apache's systems to quickly find necessary information
+- For ease of maintenance, only the PDF is available here. To convert this to a format directly suitable as an in-game kneeboard please use [DCS Kneeboard Builder](https://dcskneeboardbuilder.com/).
 
-- Testing using `itemize` and `enumerate` rather than tabulars, currently copied start up section for comparison
-- Also testing new style of table for `TSD POINT - ADD`
-  - `textwidth` to define section widths
-  - no `textbullet` when enumeration unnecessary
-  - removed center vertical line to free up additional horizontal space
+## HOW TO USE
 
-***
-
-### Changelog - 2022.03.16 
-
-- Added many additonal sections/subsections to ASE, Sensors, and Weapons chapters 
+- Just download the PDF and use as desired
+- The remaining files are the LaTeX source code
 
 ***
 
-### Changelog - 2022.03.15
+## WORK IN PROGRESS
 
-- Added additional chapters and corresponding thumbtabs on front page
-  - `Procedures`
-  - `Aircraft Systems`
-  - `Navigation / TSD`
-  - `Communication / Datalink`
-  - `Defensive Systems / ASE`
-  - `Sensors` 
-  - `Weapons`
-  - `Appendix`
-  - Notably this involved expanding out what would have just been systems into several categories, only worth it if they aren't too short
-- Removed `\vspace{-7pt}` from start of minipages within tabulars, seems to make no difference
+- **This guide is not even remotely finished**
+- **Parts of this document are experimental in nature, formatting is in flux currently**
+- Please note that this guide is still in progress and updates will come as I have time
+  
+### TO-DO
+
+- Almost everything
 
 ***
 
-### Changelog - 2022.03.14
+## THANKS / SOURCES
 
-- Completed rough, pre-release cold start section
-  - Added Interior Checks
-  - Added apu start
-  - Added DMS Sweep
-  - Added Engine Start
-  - Added Pre-Taxi
+- The official Eagle Dynamics guide along with the excellent videos by Matt Wagner served a the foundation for this guide.
+- Additionally the official US Army Apache Longbow Operator's Manual was referenced
 
 ***
 
-### Changelog - 2022.03.07
+## REPOSITORY - `TECHS CHECKS`
 
-- Initial Commit
+[**Check out my other Cheatsheets**](https://github.com/Techneatium/Techs-Checks) (Precompiled PDFs for various aircraft)

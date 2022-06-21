@@ -2,7 +2,15 @@
 
 ## CHANGELOG
 
-***
+### Changelog - 2022.06.21
+
+- `TechCheck.cls`
+  - Updated to latest version. [See F-14 Cheatsheet for more details](https://github.com/Techneatium/F14_CheatSheet/blob/master/CHANGELOG.md)
+
+- `AH64_CheatSheet.tex`
+  - Updated to use `tablenumitem`, `checklistenumitem` environments
+    - May be better to make a modified definition to account for (plt/cpg) comments.
+  - Removed `START-UP -- NEW TABLE DESIGN`
 
 ### Changelog - 2022.05.29
 
@@ -20,13 +28,9 @@
   - no `textbullet` when enumeration unnecessary
   - removed center vertical line to free up additional horizontal space
 
-***
-
 ### Changelog - 2022.03.16
 
 - Added many additonal sections/subsections to ASE, Sensors, and Weapons chapters
-
-***
 
 ### Changelog - 2022.03.15
 
